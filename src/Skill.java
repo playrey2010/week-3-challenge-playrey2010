@@ -5,7 +5,6 @@ public class Skill {
     private String rating;
 
     // Methods
-
     public void inputSkill(Scanner sc) {
         System.out.print("Please enter the skill name: ");
         setName(sc.nextLine());
@@ -54,6 +53,4 @@ public class Skill {
     public void setRating(String rating) {
         this.rating = rating;
     }
-
-
 }
