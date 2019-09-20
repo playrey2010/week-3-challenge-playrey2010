@@ -37,13 +37,13 @@ public class Skill {
         proficiencies[3] = "Advanced";
         proficiencies[4] = "Expert";
 
-        System.out.print("\nPlease enter the rating (integer) for that specific skill. ");
-        System.out.print("\n\tGUIDE: Type \"1\" for " + proficiencies[0] +
+        System.out.print("\nPlease enter the rating (integer) for that specific skill (" + getName() + "). ");
+        System.out.print("\nGUIDE: Type \"1\" for " + proficiencies[0] +
                 ", \"2\" for " + proficiencies[1] + ", \"3\" for " + proficiencies[2] + ", \"4\" for "
                 + proficiencies[3] + ", and \"5\" for " + proficiencies[4] + ": ");
         int tempChoice = sc.nextInt();
         sc.nextLine();
-        while (tempChoice > 6 || tempChoice < 0) {
+        while (tempChoice > 6 || tempChoice < 1) {
             System.out.print("\nPlease enter a number between 1 and 5: ");
             tempChoice = sc.nextInt();
             sc.nextLine();
