@@ -6,11 +6,8 @@ public class RoboApp {
 
         //Testing area
         Resume r = new Resume();
-        r.inputWorkExp(sc);
-        System.out.println(r.displayWorkExp());
-
-
-
+        r.inputResumeInformation(sc);
+        System.out.println(r.displayResumeInfo());
 
     }
 }

@@ -9,6 +9,48 @@ public class Resume {
     private ArrayList<Skill> skills;
 
     // methods CREATE DISPLAY METHOD
+    public String displayResumeInfo () {
+        String display = "==================================================\n";
+        display += getName() + "\n";
+        display += getEmailAddress() + "\n\n";
+        display += "EDUCATION\n" + displayEdAchievements() + "\n";
+        display += "EXPERIENCE\n" + displayWorkExp() + "\n";
+        display += "SKILLS\n" + displaySkills() + "\n";
+        display += "==================================================";
+        return display;
+    }
+
+    public void inputResumeInformation (Scanner sc) {
+        inputName(sc);
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+        inputEmailAddress(sc);
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+        inputEdAchievements(sc);
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+        inputWorkExp(sc);
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+        inputSkills(sc);
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
+    }
+
+    public void inputEmailAddress (Scanner sc) {
+        System.out.print("Enter your email address: ");
+        setEmailAddress(sc.nextLine());
+    }
+
+    public void inputName(Scanner sc) {
+        System.out.print("Enter your full name: ");
+        setName(sc.nextLine());
+    }
+
+    public String displayEdAchievements () {
+        String display = "";
+        for (Education education : getEducationalAchievement()) {
+            display += education.displayEduInfo() + "\n";
+        }
+        return display;
+    }
+
     public void inputEdAchievements (Scanner sc) {
         Education education;
         ArrayList<Education> tempEdu = new ArrayList<>();

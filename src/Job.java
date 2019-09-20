@@ -53,7 +53,7 @@ public class Job {
         System.out.print("Enter the end date for your job as a " + getJobTitle() + " --> year: ");
         year = sc.nextInt();
         sc.nextLine();
-        System.out.print("Enter the month in numbers (1-12): ");
+        System.out.print("Enter the starting month in numbers (1-12): ");
         month = sc.nextInt();
         sc.nextLine();
         setEndDate(months[month-1] + " " + year);
@@ -66,7 +66,7 @@ public class Job {
         System.out.print("Enter the starting date for your job as a " + getJobTitle() + " --> year: ");
         year = sc.nextInt();
         sc.nextLine();
-        System.out.print("Enter the month in numbers (1-12): ");
+        System.out.print("Enter the end month in numbers (1-12): ");
         month = sc.nextInt();
         sc.nextLine();
         setStartDate(months[month-1] + " " + year);
