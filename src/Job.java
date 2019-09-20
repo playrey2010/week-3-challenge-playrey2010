@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Experience {
+public class Job {
     private String companyName;
     private String jobTitle;
     private String startDate;
