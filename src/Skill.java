@@ -4,23 +4,6 @@ public class Skill {
     private String name;
     private String rating;
 
-    // getters and setters
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getRating() {
-        return rating;
-    }
-
-    public void setRating(String rating) {
-        this.rating = rating;
-    }
-
     // Methods
 
     public void inputSkill(Scanner sc) {
@@ -54,5 +37,23 @@ public class Skill {
     public String displaySkill() {
         return getName() + ", " + getRating();
     }
+
+    // getters and setters
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getRating() {
+        return rating;
+    }
+
+    public void setRating(String rating) {
+        this.rating = rating;
+    }
+
 
 }
