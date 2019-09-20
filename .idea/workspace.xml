@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Resume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="-1077">
               <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,7 +41,6 @@
                 <element signature="method#displayWorkExp#0;class#Resume#0" />
                 <element signature="method#inputWorkExp#0;class#Resume#0" />
                 <element signature="method#displaySkills#0;class#Resume#0" />
-                <element signature="method#inputSkills#0;class#Resume#0" />
                 <element signature="e#4258#4259#0" expanded="true" />
                 <element signature="e#4330#4331#0" expanded="true" />
                 <element signature="e#4404#4405#0" expanded="true" />
@@ -109,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Skill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+            <state relative-caret-position="253">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="e#1296#1297#0" expanded="true" />
                 <element signature="e#1349#1350#0" expanded="true" />
@@ -222,16 +221,15 @@
       <updated>1568920688815</updated>
       <workItem from="1568920708655" duration="5738000" />
       <workItem from="1568943473513" duration="5870000" />
-      <workItem from="1568984111569" duration="13038000" />
+      <workItem from="1568984111569" duration="13546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24646000" />
+    <option name="totallyTimeSpent" value="25154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3336887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -243,14 +241,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4723727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4723727" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
@@ -277,17 +275,6 @@
           <folding>
             <element signature="e#464#465#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-          <folding>
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -345,9 +332,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Skill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resume.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="-1077">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -358,7 +356,6 @@
             <element signature="method#displayWorkExp#0;class#Resume#0" />
             <element signature="method#inputWorkExp#0;class#Resume#0" />
             <element signature="method#displaySkills#0;class#Resume#0" />
-            <element signature="method#inputSkills#0;class#Resume#0" />
             <element signature="e#4258#4259#0" expanded="true" />
             <element signature="e#4330#4331#0" expanded="true" />
             <element signature="e#4404#4405#0" expanded="true" />
