@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Skill {
     private String name;
     private String rating;
-    private String[] proficiencies;
 
     // getters and setters
     public String getName() {
@@ -31,19 +30,24 @@ public class Skill {
     }
 
     public void askForRating (Scanner sc) {
-        proficiencies = new String[5];
+        String[] proficiencies = new String[5];
         proficiencies[0] = "Fundamental";
         proficiencies[1] = "Novice";
         proficiencies[2] = "Intermediate";
         proficiencies[3] = "Advanced";
         proficiencies[4] = "Expert";
 
-        System.out.print("\nPlease enter the rating (integer) for that specific skill: ");
-        System.out.print("\n\n\tGUIDE: Type \"1\" for " + proficiencies[0] +
+        System.out.print("\nPlease enter the rating (integer) for that specific skill. ");
+        System.out.print("\n\tGUIDE: Type \"1\" for " + proficiencies[0] +
                 ", \"2\" for " + proficiencies[1] + ", \"3\" for " + proficiencies[2] + ", \"4\" for "
                 + proficiencies[3] + ", and \"5\" for " + proficiencies[4] + ": ");
         int tempChoice = sc.nextInt();
         sc.nextLine();
+        while (tempChoice > 6 || tempChoice < 0) {
+            System.out.print("\nPlease enter a number between 1 and 5: ");
+            tempChoice = sc.nextInt();
+            sc.nextLine();
+        }
         setRating(proficiencies[tempChoice-1]);
     }
 
