@@ -5,9 +5,12 @@ public class RoboApp {
         Scanner sc = new Scanner(System.in);
 
         //Testing area
-        Job job = new Job();
-        job.inputJobInformation(sc);
-        System.out.println(job.displayJobInformation());
+        Resume r = new Resume();
+        r.inputWorkExp(sc);
+        System.out.println(r.displayWorkExp());
+
+
+
 
     }
 }

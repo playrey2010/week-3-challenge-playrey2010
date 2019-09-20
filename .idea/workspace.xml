@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb75c0f-cd1f-4197-b301-d703207ddf29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Education.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resume.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RoboApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RoboApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skill.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,27 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RoboApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ResumeDate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -47,33 +31,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resume.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="368">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#inputWorkExp#0;class#Resume#0" />
+                <element signature="method#inputSkills#0;class#Resume#0" />
+                <element signature="e#2067#2068#0" expanded="true" />
+                <element signature="e#2139#2140#0" expanded="true" />
+                <element signature="e#2213#2214#0" expanded="true" />
+                <element signature="e#2317#2318#0" expanded="true" />
+                <element signature="e#2425#2426#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
+                <element signature="e#2789#2790#0" expanded="true" />
+                <element signature="e#2861#2862#0" expanded="true" />
+                <element signature="e#2951#2952#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Education.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="method#inputDegreeType#0;class#Education#0" />
+                <element signature="method#inputMajor#0;class#Education#0" />
+                <element signature="method#inputUniName#0;class#Education#0" />
+                <element signature="method#inputGradYear#0;class#Education#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Job.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+            <state relative-caret-position="281">
+              <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
+                <element signature="method#displayJobInformation#0;class#Job#0" />
+                <element signature="method#inputJobTitle#0;class#Job#0" />
+                <element signature="method#inputCompanyName#0;class#Job#0" />
                 <element signature="method#inputStartDate#0;class#Job#0" />
-                <element signature="method#inputStartDate#0;class#Job#0" />
-                <element signature="method#displayTasks#0;class#Job#0" />
+                <element signature="e#3467#3468#0" expanded="true" />
                 <element signature="e#3501#3502#0" expanded="true" />
+                <element signature="e#3555#3556#0" expanded="true" />
                 <element signature="e#3601#3602#0" expanded="true" />
+                <element signature="e#3636#3637#0" expanded="true" />
                 <element signature="e#3667#3668#0" expanded="true" />
+                <element signature="e#3715#3716#0" expanded="true" />
                 <element signature="e#3755#3756#0" expanded="true" />
+                <element signature="e#3791#3792#0" expanded="true" />
                 <element signature="e#3823#3824#0" expanded="true" />
+                <element signature="e#3873#3874#0" expanded="true" />
                 <element signature="e#3915#3916#0" expanded="true" />
+                <element signature="e#3949#3950#0" expanded="true" />
                 <element signature="e#3979#3980#0" expanded="true" />
+                <element signature="e#4025#4026#0" expanded="true" />
                 <element signature="e#4063#4064#0" expanded="true" />
+                <element signature="e#4106#4107#0" expanded="true" />
                 <element signature="e#4134#4135#0" expanded="true" />
+                <element signature="e#4187#4188#0" expanded="true" />
                 <element signature="e#4221#4222#0" expanded="true" />
               </folding>
             </state>
@@ -83,20 +105,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Skill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="230">
+              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
               <folding>
-                <element signature="method#inputSkill#0;class#Skill#0" />
-                <element signature="method#askForRating#0;class#Skill#0" />
+                <element signature="e#1296#1297#0" expanded="true" />
                 <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1406#1407#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1647#1648#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,24 +130,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Resume.java" />
         <option value="$PROJECT_DIR$/src/ResumeDate.java" />
         <option value="$PROJECT_DIR$/src/Experience.java" />
         <option value="$PROJECT_DIR$/src/Skill.java" />
-        <option value="$PROJECT_DIR$/src/RoboApp.java" />
         <option value="$PROJECT_DIR$/src/Job.java" />
+        <option value="$PROJECT_DIR$/src/Education.java" />
+        <option value="$PROJECT_DIR$/src/Resume.java" />
+        <option value="$PROJECT_DIR$/src/RoboApp.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -211,18 +218,18 @@
       <updated>1568920688815</updated>
       <workItem from="1568920708655" duration="5738000" />
       <workItem from="1568943473513" duration="5870000" />
-      <workItem from="1568984111569" duration="4147000" />
+      <workItem from="1568984111569" duration="10568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15755000" />
+    <option name="totallyTimeSpent" value="22176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33369803" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3336887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -231,8 +238,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33150986" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -261,7 +268,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ResumeDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="437">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#464#465#0" expanded="true" />
@@ -270,65 +277,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resume.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Skill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="230">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
           <folding>
-            <element signature="method#inputSkill#0;class#Skill#0" />
-            <element signature="method#askForRating#0;class#Skill#0" />
+            <element signature="e#1296#1297#0" expanded="true" />
             <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoboApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Job.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+        <state relative-caret-position="281">
+          <caret line="92" column="45" lean-forward="true" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
+            <element signature="method#displayJobInformation#0;class#Job#0" />
+            <element signature="method#inputJobTitle#0;class#Job#0" />
+            <element signature="method#inputCompanyName#0;class#Job#0" />
             <element signature="method#inputStartDate#0;class#Job#0" />
-            <element signature="method#inputStartDate#0;class#Job#0" />
-            <element signature="method#displayTasks#0;class#Job#0" />
+            <element signature="e#3467#3468#0" expanded="true" />
             <element signature="e#3501#3502#0" expanded="true" />
+            <element signature="e#3555#3556#0" expanded="true" />
             <element signature="e#3601#3602#0" expanded="true" />
+            <element signature="e#3636#3637#0" expanded="true" />
             <element signature="e#3667#3668#0" expanded="true" />
+            <element signature="e#3715#3716#0" expanded="true" />
             <element signature="e#3755#3756#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
             <element signature="e#3823#3824#0" expanded="true" />
+            <element signature="e#3873#3874#0" expanded="true" />
             <element signature="e#3915#3916#0" expanded="true" />
+            <element signature="e#3949#3950#0" expanded="true" />
             <element signature="e#3979#3980#0" expanded="true" />
+            <element signature="e#4025#4026#0" expanded="true" />
             <element signature="e#4063#4064#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
             <element signature="e#4134#4135#0" expanded="true" />
+            <element signature="e#4187#4188#0" expanded="true" />
             <element signature="e#4221#4222#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Education.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="method#inputDegreeType#0;class#Education#0" />
+            <element signature="method#inputMajor#0;class#Education#0" />
+            <element signature="method#inputUniName#0;class#Education#0" />
+            <element signature="method#inputGradYear#0;class#Education#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#inputWorkExp#0;class#Resume#0" />
+            <element signature="method#inputSkills#0;class#Resume#0" />
+            <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#2317#2318#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#2861#2862#0" expanded="true" />
+            <element signature="e#2951#2952#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RoboApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
