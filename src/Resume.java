@@ -8,7 +8,7 @@ public class Resume {
     private ArrayList<Job> workExperience;
     private ArrayList<Skill> skills;
 
-    // methods CREATE DISPLAY METHOD
+    // methods
     public String displayResumeInfo () {
         String display = "==================================================\n";
         display += getName() + "\n";

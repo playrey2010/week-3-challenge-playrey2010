@@ -50,23 +50,30 @@ public class Job {
         String[] months = new DateFormatSymbols(Locale.getDefault()).getMonths();
         int year = 1970, month = 0;
 
-        System.out.print("Enter the end date for your job as a " + getJobTitle() + " --> year: ");
+        System.out.print("Enter the end date for your job as a " + getJobTitle() + "\nYEAR: ");
         year = sc.nextInt();
         sc.nextLine();
-        System.out.print("Enter the starting month in numbers (1-12): ");
-        month = sc.nextInt();
-        sc.nextLine();
-        setEndDate(months[month-1] + " " + year);
+        System.out.print("\nMONTH(1-12, or \"present\" if still there): ");
+        if (sc.hasNextInt()) {
+            month = sc.nextInt();
+            sc.nextLine();
+            setEndDate(months[month-1] + " " + year);
+        }
+        else {
+            sc.nextLine();
+            String present = "Present";
+            setEndDate(present);
+        }
     }
 
     public void inputStartDate(Scanner sc) {
         String[] months = new DateFormatSymbols(Locale.getDefault()).getMonths();
         int year = 1970, month = 0;
 
-        System.out.print("Enter the starting date for your job as a " + getJobTitle() + " --> year: ");
+        System.out.print("Enter the starting date for your job as a " + getJobTitle() + "\nYEAR: ");
         year = sc.nextInt();
         sc.nextLine();
-        System.out.print("Enter the end month in numbers (1-12): ");
+        System.out.print("\nMONTH(1-12): ");
         month = sc.nextInt();
         sc.nextLine();
         setStartDate(months[month-1] + " " + year);
@@ -102,7 +109,6 @@ public class Job {
         }
         return display;
     }
-
     // getter and setters
 
     public String getCompanyName() {
@@ -144,7 +150,4 @@ public class Job {
     public void setTasks(ArrayList<String> tasks) {
         this.tasks = tasks;
     }
-
-
-
 }

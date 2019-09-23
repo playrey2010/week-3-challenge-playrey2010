@@ -26,7 +26,6 @@ public class Education {
         System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++");
     }
 
-
     public void inputDegreeType (Scanner sc) {
         String[] degrees = new String[6];
         degrees[0] = "AA";
@@ -37,12 +36,13 @@ public class Education {
         degrees[5] = "N/A";
 
         System.out.print("Please enter the degree type by using our guide below.\n");
-        System.out.print("__________________________________________________\n");
+        System.out.print("____________________________________________________________\n");
         System.out.print("GUIDE: Type \"1\" for " + degrees[0] +
                         ", \"2\" for " + degrees[1] +
                         ", \"3\" for " + degrees[2] +
                         ", \"4\" for " + degrees[3] +
                         ", \"5\" for " + degrees[4] + ".");
+        System.out.print("\n____________________________________________________________");
         System.out.print("\nIf your degree type is not listed above, please enter \"6\": ");
         int tempDegree = sc.nextInt();
         sc.nextLine();
